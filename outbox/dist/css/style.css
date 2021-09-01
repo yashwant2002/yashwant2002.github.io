@@ -1,0 +1,99 @@
+.sidenav {
+  height: 100%;
+  width: 175px;
+  background-color: #f4f4f4;
+  padding-top: 20px;
+  float: left;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: black;
+  background-color: #c6e0f5;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.outlook{
+  background-color: black;
+  color: white;
+  padding-bottom: 10px;
+  text-align: center;
+  font-weight: 300;
+}
+li{
+  list-style-type: none;
+  text-decoration: none;
+}
+.item{
+  text-decoration: none;
+  position: relative; right: inherit;;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+.menu{
+  background-color: #2b76da;
+  float: left;
+  padding: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 3px;
+  height: 28px;
+
+}
+.app{
+  background-color: black;
+  color: white;
+  padding: 2px;
+  padding-bottom: 5px;
+  padding-left: 50px;
+  font-size: 17px;
+  height: 25px;
+}
+.main_nav_searchbar{
+  background-color: #eff6fc;
+  display: flex;
+  position: relative;
+
+}
+
+.email_list{
+   padding-left: 60px;
+   padding-top: 15px;
+   border: 0px;
+}
+.email_list div:hover{
+  background-color: #eff6fc;
+}
+.img{
+  margin: auto;
+  width: 25%;
+  padding-top: 22%;
+}
+input{
+  border: 0px;
+  width: 174px;
+  height: 35px;
+  background-color: #deecfa;
+}
+.search_logo{
+  position: absolute;
+}
+a{
+  text-decoration: none;
+}
+iframe{
+  border:1px solid lightgray;
+}
